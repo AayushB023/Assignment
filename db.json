@@ -1,0 +1,555 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "json-server12",
+      "author": "typicode",
+      "id": 5
+    },
+    {
+      "firstname": "Ddsd",
+      "lastname": "wsscsf",
+      "password": "12345",
+      "re-password": "12345",
+      "emailad": "aayush.bhargava022@gmail.com",
+      "phone": 7024495325,
+      "medical": "wqdfrqfefqffeqe",
+      "address": "Jaypee University of Engineering and Technology, A-B Road, Raghogarh",
+      "validate": "",
+      "id": 6
+    }
+  ],
+  "Bookings": [
+    {
+      "Upcoming": [
+        {
+          "date": "27 AUG 2019, 09:00am",
+          "name": "The Hound, Khal Drogo",
+          "address": "South Of the Wall",
+          "status": "Pending"
+        },
+        {
+          "date": "17 APR 2019, 09:00am",
+          "name": "Jon Snow, Targerian",
+          "address": "King in the North",
+          "status": "On the Way"
+        },
+        {
+          "date": "27 AUG 2019, 09:00am",
+          "name": "The Hound, Khal Drogo",
+          "address": "South Of the Wall",
+          "status": "Pending"
+        }
+      ],
+      "id": "Upcoming"
+    },
+    {
+      "Past": [
+        {
+          "date": "17 APR 2019, 09:00am",
+          "name": "Jon Snow, Targerian",
+          "address": "King in the North",
+          "status": "Completed"
+        },
+        {
+          "date": "27 AUG 2019, 09:00am",
+          "name": "The Hound, Khal Drogo",
+          "address": "South Of the Wall",
+          "status": "Completed"
+        }
+      ],
+      "id": "Past"
+    }
+  ],
+  "faqs": [
+    {
+      "id": 1,
+      "title": "WHAT DO YOU MEAN BY POINTS? HOW DO I EARN IT?",
+      "content": " Because you are important to us, we want to know what you think about the products. As an added value, every time you rate the products you earn points which go straight to your account. 1 point are added to your account for every review that you give. You will need those points in order to redeem the sample products. So keep rating the products to keep earning points!"
+    },
+    {
+      "id": 2,
+      "title": "HOW CAN I TRACK MY ORDERS & PAYMENT?",
+      "content": " After logging into your account, the status of your checkout history can be found under Order History. For orders via registered postage, a tracking number (article tracking number) will be given to you after the receipt given from Singapore Post Limited (SingPost)."
+    },
+    {
+      "id": 3,
+      "title": "HOW CAN I USE MY REMAINING ACCOUNT CREDITS?",
+      "content": " We are in the process of removing the option to pay for your orders by ‘Account Credits’. If you have remaining credits in your account, it will be used to pay for your next checkout. If there are insufficient credits, the system will direct you automatically to pay the balance via Paypal."
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "firstname": "Ayushdrtfgyh",
+      "emailid": "ayush.cherkiya@gmail.com",
+      "phone": 7024495325,
+      "medical": "sdfghb12323",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 1
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 2
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 3
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 4
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 5
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 6
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 7
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 8
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 9
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 10
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 11
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 12
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 13
+    },
+    {
+      "firstname": "edkldlw`hbgjk",
+      "lastname": "kljdlkjdwj",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "kleildjilk",
+      "phone": 84654658,
+      "medical": "hhjhhjhjjhjhjhj",
+      "address": "nklnjldeml",
+      "validate": "",
+      "id": 14
+    },
+    {
+      "firstname": "Qwerty",
+      "lastname": "Keypad",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "qwerty@gmail.com",
+      "phone": 9479809792,
+      "medical": "1wedrfghrfsd",
+      "address": "Jaypee University of Engineering and Technology, A-B Road, Raghogarh",
+      "validate": "",
+      "id": 15
+    },
+    {
+      "firstname": "Sidd",
+      "lastname": "Keypad",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "qwertysidd@gmail.com",
+      "phone": 9479809792,
+      "medical": "1wedrfghrfsd",
+      "address": "Jaypee University of Engineering and Technology, A-B Road, Raghogarh",
+      "validate": "",
+      "id": 16
+    },
+    {
+      "firstname": "swqefg",
+      "lastname": "asfddfs",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "aayush.bhargava022@gmail.com",
+      "phone": 7024495325,
+      "medical": "134560987654",
+      "address": "Aayush0253",
+      "validate": "",
+      "id": 17
+    },
+    {
+      "firstname": "dfghj",
+      "lastname": "ytguhj",
+      "password": "asdf",
+      "re-password": "asdf",
+      "emailad": "ghj",
+      "phone": 987654,
+      "medical": "awegtfhjukldrgfh",
+      "address": "asdfghjklrfgtyhuj",
+      "validate": "",
+      "id": 18
+    },
+    {
+      "firstname": "Robins",
+      "lastname": "Singh",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "robin.singh@gmail.com",
+      "phone": 1234567890,
+      "medical": "qwerftgyujiklkjhgf",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 19
+    },
+    {
+      "firstname": "Rob",
+      "lastname": "Singh",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "rob@gmail.com",
+      "phone": 7024495325,
+      "medical": "qwerfdsdfdefgfr",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 20
+    },
+    {
+      "firstname": "Rob",
+      "lastname": "Singh",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "rob@gmail.com",
+      "phone": 7024495325,
+      "medical": "qwerfdsdfdefgfr",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 21
+    },
+    {
+      "firstname": "rob",
+      "lastname": "Singh",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "rob@gmail.com",
+      "phone": 7024495325,
+      "medical": "cbgfhjjiij",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 22
+    },
+    {
+      "firstname": "Rob",
+      "lastname": "Singh",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "rob@gmail.com",
+      "phone": 7024495325,
+      "medical": "dsvfnfrhmmfymg",
+      "address": "Jaypee University of Engineering and Technology",
+      "validate": "",
+      "id": 23
+    },
+    {
+      "firstname": "Robins",
+      "lastname": "SIngh",
+      "password": "123456",
+      "re-password": "123456",
+      "emailad": "robi@gmail.com",
+      "phone": 7024495325,
+      "medical": "Hello World",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 24,
+      "emailid": "robi@gmail.com"
+    },
+    {
+      "firstname": "Sunny",
+      "lastname": "Bhargava",
+      "password": "123456",
+      "repassword": "123456",
+      "emailad": "sunny@gmail.com",
+      "phone": "889945625445",
+      "medical": "As I have informed you about AAyush",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 25,
+      "emailid": "sunny@gmail.com"
+    },
+    {
+      "firstname": "Aayush bf",
+      "lastname": "ab",
+      "password": "123456",
+      "repassword": "123456",
+      "emailad": "aayush.bhargava022@gmail.com",
+      "phone": "7024495325",
+      "medical": "As good as any body",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 26,
+      "emailid": "abc"
+    },
+    {
+      "firstname": "aayush12",
+      "emailid": "abc",
+      "phone": "7894dfg",
+      "medical": "asdfghbgfdsxdcvbh",
+      "address": "asdfghjk,mnbvc",
+      "validate": "",
+      "id": 27
+    },
+    {
+      "params": {
+        "id": {
+          "firstname": "aayush1234",
+          "emailid": "abc",
+          "phone": "7894dfg",
+          "medical": "asdfghbgfdsxdcvbh",
+          "address": "asdfghjk,mnbvc",
+          "validate": ""
+        }
+      },
+      "id": 28
+    },
+    {
+      "firstname": "Aayush",
+      "lastname": "Bhargava",
+      "password": "123456",
+      "repassword": null,
+      "emailad": "aayush.bhargava022@gmail.com",
+      "phone": 7024495325,
+      "medical": "All is goodfsfgfsd",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 29
+    },
+    {
+      "firstname": null,
+      "lastname": null,
+      "password": "aas",
+      "repassword": null,
+      "emailad": null,
+      "phone": null,
+      "medical": null,
+      "address": null,
+      "validate": "",
+      "id": 30
+    },
+    {
+      "firstname": null,
+      "lastname": null,
+      "password": null,
+      "repassword": null,
+      "emailad": null,
+      "phone": null,
+      "medical": null,
+      "address": null,
+      "validate": "",
+      "id": 31
+    },
+    {
+      "firstname": "Aayush",
+      "lastname": "Bhargava",
+      "password": "123456",
+      "repassword": null,
+      "emailad": "aayush.bhargava022@gmail.com",
+      "phone": 7024495325,
+      "medical": "Hello WOrld",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 32
+    },
+    {
+      "firstname": "Aayush",
+      "lastname": "Bhargava",
+      "password": "123456",
+      "repassword": null,
+      "emailad": "aayush.bhargava022@gmail.com",
+      "phone": 7024495325,
+      "medical": "qwghjkjhgfdsdfg",
+      "address": "BM-122, Deen Dayal Nagar, Maharajpura Road",
+      "validate": "",
+      "id": 33
+    },
+    {
+      "firstname": null,
+      "lastname": null,
+      "password": "123456",
+      "repassword": null,
+      "emailad": null,
+      "phone": null,
+      "medical": null,
+      "address": null,
+      "validate": "",
+      "id": 34
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "19 March 2020.09:00am",
+      "name": "Aayush Bhargava",
+      "address": "Deen Dayal Nagar, Gwalior",
+      "status": "completed"
+    },
+    {
+      "date": "13 April 2019.05:30pm",
+      "name": "Parushi",
+      "address": "Mandi, Himachal",
+      "status": "pending"
+    },
+    {
+      "date": "25 April 2019.05:30pm",
+      "name": "Shubhangi",
+      "address": "Kota, Rajasthan",
+      "status": "on the way"
+    }
+  ],
+  "past": [
+    {
+      "date": "09 Nov 1997.08:00am",
+      "name": "Siddarth ",
+      "address": "Guna ",
+      "status": "completed"
+    },
+    {
+      "date": "3 April 1997.05:30pm",
+      "name": "Samriti",
+      "address": "Shimla",
+      "status": "completed"
+    },
+    {
+      "date": "25 March 1997.05:30pm",
+      "name": "Aadesh",
+      "address": "Gandhidham",
+      "status": "completed"
+    }
+  ]
+}

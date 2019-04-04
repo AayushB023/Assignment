@@ -1,0 +1,28 @@
+<!-- Default form register --> 
+<div class="center">
+<br> 
+<div class="center row" style="padding-right:40%"><div class="col-md"></div>
+<div class="center col-md-8 border-light" id="main"> 
+<form class="center border p-3 login-form" [formGroup]="lForm" style="background-color:white;box-shadow: 5px 10px 8px #888888;" (ngSubmit) = onSubmit(lForm.value) > 
+<h3 style="text-align:center">LOGIN </h3><hr> 
+<div class="row"><div class="col-md-6"> 
+<!-- Email --> 
+<label for="emailad" class="center-align">E-MAIL ADDRESS</label>
+<input type="email" class="form-control" value="emailad" formControlName="emailad"/>
+<div class="alert" *ngIf="!lForm.controls['emailad'].valid && lForm.controls['emailad'].touched">{{ titleAlert }}</div>
+<br>  
+<!-- password --> 
+<label for="password" class="center-align">PASSWORD</label>
+<input type="password" class="form-control" value="password"  name="password" formControlName="password"/>
+<div class="alert" *ngIf="!lForm.controls['password'].valid && lForm.controls['password'].touched">{{ titleAlert }}</div>
+
+</div></div> 
+
+<div class="row"><div class="col-md-4"></div> 
+<div class="col-md-4"><button class="btn btn-info btn-block my-4 submitbtn" type="submit" [disabled]="lForm.invalid">REGISTER</button></div></div> 
+<div class="loginhere">*New User ?<a routerLink="/register">Register Here</a></div> 
+</form> 
+
+</div></div> 
+<!-- Default form login --> 
+</div>

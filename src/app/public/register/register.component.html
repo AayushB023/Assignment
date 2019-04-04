@@ -1,0 +1,58 @@
+<!-- Default form register --> 
+<br> 
+<div class="center row" style="padding-right:40%"><div class="col-md"></div>
+<div class="center col-md-8 border-light" id="main"> 
+<form class="center border p-3 login-form" [formGroup]="rForm" style="background-color:white;box-shadow: 5px 10px 8px #888888;" (ngSubmit) = registerUser(rForm.value) > 
+<h3 style="text-align:center">Register User</h3><hr> 
+<div class="row"><div class="col-md-6"> 
+<!-- First Name --> 
+<label for="firstname" class="center-align">FIRST NAME</label>
+<input type="text" class="form-control" value="firstname" formControlName="firstname"/>
+<div class="alert" *ngIf="!rForm.controls['firstname'].valid && rForm.controls['firstname'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- Email --> 
+<label for="emailad" class="center-align">E-MAIL ADDRESS</label>
+<input type="email" class="form-control" value="emailad" formControlName="emailad"/>
+<div class="alert" *ngIf="!rForm.controls['emailad'].valid && rForm.controls['emailad'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- Address --> 
+<label for="address" class="center-align">ADDRESS</label>
+<input type="text" class="form-control" value="address" formControlName="address"/>
+<div class="alert" *ngIf="!rForm.controls['address'].valid && rForm.controls['address'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- password --> 
+<label for="password" class="center-align">PASSWORD</label>
+<input type="password" class="form-control" value="password"  name="password" formControlName="password"/>
+<div class="alert" *ngIf="!rForm.controls['password'].valid && rForm.controls['password'].touched">{{ titleAlert }}</div>
+
+</div> 
+
+<div class="col-md-6"> 
+<!-- Last Name --> 
+<label for="lastname" class="center-align">LAST NAME</label>
+<input type="text" class="form-control" value="lastname" formControlName="lastname"/>
+<div class="alert" *ngIf="!rForm.controls['lastname'].valid && rForm.controls['lastname'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- phone no --> 
+<label for="phone" class="center-align">PHONE NUMBER</label>
+<input type="number" class="form-control" value="phone" formControlName="phone"/>
+<div class="alert" *ngIf="!rForm.controls['phone'].valid && rForm.controls['phone'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- Medical --> 
+<label for="medical" class="center-align">MEDICAL HISTORY</label>
+<input type="text" class="form-control" value="medical" formControlName="medical"/>
+<div class="alert" *ngIf="!rForm.controls['medical'].valid && rForm.controls['medical'].touched">{{ titleAlert }}</div>
+<br>
+<!-- confirm password --> 
+<label for="repassword" class="center-align">CONFIRM PASSWORD</label>
+<input formControlName="repassword" class="form-control" placeholder="Re-Password" id="repassword" name="repassword" type="password" appConfirmPasswordValidator='password' required /> 
+<div *ngIf="rForm.get('repassword').hasError('notEqual')">Password and Confirm Password do not match! </div> 
+</div></div> 
+<div class="row"><div class="col-md-4"></div> 
+<div class="col-md-4"><button class="btn btn-info btn-block my-4 submitbtn" type="submit" [disabled]="rForm.invalid">REGISTER</button></div></div> 
+<div class="loginhere">*Already a User:<a routerLink="/login">Login Here</a></div> 
+</form> 
+
+</div></div> 
+<!-- Default form login --> 
+>

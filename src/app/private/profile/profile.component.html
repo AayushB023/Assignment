@@ -1,0 +1,48 @@
+<!-- Default form register --> 
+<br> 
+<div class="row" style="padding-right:40%"><div class="col-md"></div>
+<div class="col-md-8 border-light" id="main"> 
+<form class="center border p-3 login-form" [formGroup]="pForm" style="background-color:white;box-shadow: 5px 10px 8px #888888;" (ngSubmit) = updateUser(pForm.value) > 
+<h3 style="text-align:center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3qmREi6Bag9BxxTvSCdXKqL8G2mBNjSFMi1nBZ1r92jNniSwnw" width="150px" height="150px"></h3><hr> 
+
+<div class="row"><div class="col-md-6"> 
+
+<!-- First Name --> 
+<label for="firstname" class="center-align">FIRST NAME</label>
+<input type="text" class="form-control" value="firstname" formControlName="firstname"/>
+<div class="alert" *ngIf="!pForm.controls['firstname'].valid && pForm.controls['firstname'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- Email --> 
+<label for="emailad" class="center-align">E-MAIL ADDRESS</label>
+<input type="email" class="form-control" value="emailad" formControlName="emailad"/>
+<div class="alert" *ngIf="!pForm.controls['emailad'].valid && pForm.controls['emailad'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- Address --> 
+<label for="address" class="center-align">ADDRESS</label>
+<input type="text" class="form-control" value="address" formControlName="address"/>
+<div class="alert" *ngIf="!pForm.controls['address'].valid && pForm.controls['address'].touched">{{ titleAlert }}</div>
+<br> 
+
+
+</div> 
+
+<div class="col-md-6"> 
+<!-- phone no --> 
+<label for="phone" class="center-align">PHONE NUMBER</label>
+<input type="number" class="form-control" value="phone" formControlName="phone"/>
+<div class="alert" *ngIf="!pForm.controls['phone'].valid && pForm.controls['phone'].touched">{{ titleAlert }}</div>
+<br> 
+<!-- Medical --> 
+<label for="medical" class="center-align">MEDICAL HISTORY</label>
+<input type="text" class="form-control" value="medical" formControlName="medical"/>
+<div class="alert" *ngIf="!pForm.controls['medical'].valid && pForm.controls['medical'].touched">{{ titleAlert }}</div>
+<br>
+<div class="col-md-4"><button class="btn btn-info btn-block my-4 submitbtn" type="submit" [disabled]="pForm.invalid">REGISTER</button></div>
+</div></div> 
+
+
+</form> 
+
+</div></div> 
+<!-- Default form login --> 
+>
