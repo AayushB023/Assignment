@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'; 
 import { BookingService } from './booking.service'; 
+import { CountBooking } from './countbooking.service';
 
 @Component({ 
 selector: 'app-booking', 
@@ -12,7 +13,8 @@ mybooking:any;
 pastbook: any; 
 upcomingd:boolean; 
 pastd : boolean; 
-constructor(private getbookingservice :BookingService) { } 
+total;
+constructor(private getbookingservice :BookingService, private count:CountBooking) { } 
 
  
 
@@ -31,7 +33,9 @@ bookbooking(){
 this.getbookingservice.getpastbookings().subscribe(response => { 
 this.pastbook = response; 
 this.pastd= true; 
-this.upcomingd = false; 
+this.upcomingd = false;
+this.total = this.pastbook.length + this.mybooking.length;
+this.count.count = this.total; 
 }); 
 } 
 
